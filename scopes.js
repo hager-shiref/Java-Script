@@ -38,7 +38,7 @@ myLocalScope()
 
 //=======================================================================================================================================================
 
-// Global var and local var are have the same name but don't affect on each other 
+// Global var and local var  have the same name but don't affect on each other 
 
 var outerWear="T-Shirt"
 
