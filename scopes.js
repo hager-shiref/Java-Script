@@ -4,7 +4,7 @@ var myGlobal=10;
 function fun1()
 {
  
-    oopsGlobal=5; // declaring a variable without a var keyword make it a global variable even it declare in fuction 
+    oopsGlobal=5; // declaring a variable without a var keyword make it a global variable even it declare in fuction which is local
 }
 
 function fun2()
