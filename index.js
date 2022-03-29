@@ -66,6 +66,7 @@ const squareList=(arr)=>{
 
 const squaredInteger=squareList(realNumberArray);
 console.log(squaredInteger);
+//=======================================================================================================================================================
 
 // ... called rest operator , this allows you to create a function that takes a variable number of arguments
 //...args this will make an array called args and save the parameters in it , any number of parameter
@@ -77,6 +78,8 @@ const sum=(
     }
 )();
 console.log(sum(1,2,3,4))
+
+//=======================================================================================================================================================
 
 //spread operator make an array equal all the content of arr1 
 

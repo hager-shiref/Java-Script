@@ -11,6 +11,8 @@ function abTest(a,b)
 console.log(abTest(4,4));
 console.log(Math.pow(5,2)) // 5 ^ 2 
 
+//=======================================================================================================================================================
+
 function convertToInteger(str)
 {
     return parseInt(str)
