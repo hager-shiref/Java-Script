@@ -52,3 +52,18 @@ console.log(myOutfit());
 console.log(outerWear);
 
 //=======================================================================================================================================================
+//using var you can declare the variable twice but let doesn't , it make you declare the variable once 
+//the scope of let is limited to the block statement or expression that it was declared in  
+function checkScope()
+{
+    "use strict" //this enables strict mode which catches common coding mistakes and unsafe actions 
+    let i= " Function Scope "
+    if(true){
+        let i="Block Scope"
+        console.log("Block Scope is : " +i)
+    }
+    console.log("Function Scope is : "+i)
+    return i;
+}
+
+checkScope()

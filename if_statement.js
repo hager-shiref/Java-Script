@@ -36,3 +36,20 @@ function orderMyLogic2(val)
 }
 
 console.log(orderMyLogic2(3)) // print less than 5 
+
+//ternary operator
+
+function checkEqual(a,b) 
+{
+    return a===b?true:false // this line is equal return a===b 
+}
+console.log(checkEqual(2,"2"))
+
+//multipule ternary operators
+
+function checkSign(num) 
+{
+    return num>0?"Positive": num<0?"Negative":"Zero";
+}
+
+console.log(checkSign(0))
