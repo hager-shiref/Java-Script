@@ -59,7 +59,7 @@ function checkScope()
     "use strict" //this enables strict mode which catches common coding mistakes and unsafe actions 
     let i= " Function Scope "
     if(true){
-        let i="Block Scope"
+        let i="Block Scope" // if we change let to var it will print block scope in both consoles 
         console.log("Block Scope is : " +i)
     }
     console.log("Function Scope is : "+i)
@@ -67,3 +67,17 @@ function checkScope()
 }
 
 checkScope()
+
+const SENTENCE="JavaScript is cool !"
+
+const s=[5,7,8]
+//you can change the value of array despite it's a const 
+function editInPlace() {
+    "use strict "
+    s[0]=2;
+    s[1]=5;
+    s[2]=7;
+}
+
+editInPlace()
+console.log(s)

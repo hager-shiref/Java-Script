@@ -120,3 +120,23 @@ var myPlants=[
 
 var secondTree=myPlants[1].list[0]
 console.log(secondTree)
+
+//=======================================================================================================================================================
+
+function freezeObj() {
+    "use strict";
+    const MATH_CONSTANT={
+        PI:3.14
+    };
+    Object.freeze(MATH_CONSTANT)//this to never change the value of MATH_CONSTANT 
+    try{
+        MATH_CONSTANT.PI=99;
+    }
+    catch(ex)
+    {
+        console.log(ex);
+    }
+    return MATH_CONSTANT.PI;
+}
+const PI=freezeObj()
+console.log(PI)
